@@ -43,12 +43,12 @@ Before you start using this API, make sure you have the following installed:
 - **Request Body:**
 json
 {
-"medicineId": 1,
-"medicineName": "Sample Medicine",
-"price": 10.99,
-"quantity": 100,
-"description": "Sample description"
+    "medicineName": "Paracetamol",
+    "price": 5.99,
+    "quantity": 200,
+    "description": "Common pain and fever medication"
 }
+
 
 - **Response:** Returns "true" if the medicine is successfully added, otherwise false.
 
@@ -61,12 +61,12 @@ json
 - **Request Body:**
 json
 {
-"medicineId": 1,
-"medicineName": "Updated Medicine",
-"price": 15.99,
-"quantity": 50,
-"description": "Updated description"
+    "medicineName": "Paracetamol",
+    "price": 5.99,
+    "quantity": 200,
+    "description": "Common pain and fever medication"
 }
+
 
 - **Response:** Returns the updated Medicine object.
 
