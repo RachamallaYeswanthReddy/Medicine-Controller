@@ -1,0 +1,53 @@
+CREATE TABLE medicine.medicine
+ (
+    medicineld INT AUTO_INCREMENT PRIMARY KEY,
+    medicineName VARCHAR(255) NOT NULL,
+    price FLOAT NOT NULL,
+    quantity INT NOT NULL,
+    description VARCHAR(255) NOT NULL
+);
+
+INSERT INTO medicine (medicineName, price, quantity, description)
+VALUES ('Aspirin', 10.99, 100, 'Pain reliever and fever reducer');
+
+INSERT INTO medicine (medicineName, price, quantity, description)
+VALUES ('Ibuprofen', 8.99, 150, 'Nonsteroidal anti-inflammatory drug');
+
+INSERT INTO medicine (medicineName, price, quantity, description)
+VALUES ('Acetaminophen', 9.99, 120, 'Pain reliever and fever reducer');
+
+INSERT INTO medicine (medicineName, price, quantity, description)
+VALUES ('Amoxicillin', 15.99, 50, 'Antibiotic for bacterial infections');
+
+INSERT INTO medicine (medicineName, price, quantity, description)
+VALUES ('Lisinopril', 7.49, 90, 'High blood pressure medication');
+
+INSERT INTO medicine (medicineName, price, quantity, description)
+VALUES ('Metformin', 6.99, 80, 'Type 2 diabetes medication');
+
+INSERT INTO medicine (medicineName, price, quantity, description)
+VALUES ('Atorvastatin', 12.99, 70, 'Cholesterol-lowering medication');
+
+INSERT INTO medicine (medicineName, price, quantity, description)
+VALUES ('Omeprazole', 14.99, 60, 'Proton pump inhibitor for heartburn');
+
+INSERT INTO medicine (medicineName, price, quantity, description)
+VALUES ('Warfarin', 8.49, 100, 'Anticoagulant for blood thinning');
+
+INSERT INTO medicine (medicineName, price, quantity, description)
+VALUES ('Simvastatin', 11.99, 85, 'Cholesterol-lowering medication');
+
+INSERT INTO medicine (medicineName, price, quantity, description)
+VALUES ('Ciprofloxacin', 9.99, 110, 'Antibiotic for various infections');
+
+INSERT INTO medicine (medicineName, price, quantity, description)
+VALUES ('Levothyroxine', 5.49, 130, 'Thyroid hormone replacement');
+
+INSERT INTO medicine (medicineName, price, quantity, description)
+VALUES ('Hydrochlorothiazide', 7.99, 75, 'Diuretic for blood pressure control');
+
+INSERT INTO medicine (medicineName, price, quantity, description)
+VALUES ('Metoprolol', 6.49, 95, 'Beta-blocker for heart conditions');
+
+INSERT INTO medicine (medicineName, price, quantity, description)
+VALUES ('Prednisone', 8.99, 110, 'Corticosteroid for inflammation');
