@@ -97,7 +97,7 @@ You can use Postman or any other API testing tool to interact with the endpoints
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
 
 
 Please make sure to update your repository link in the clone URL and any other specific details in the README according to your project's requirements.
