@@ -92,6 +92,8 @@ You can use Postman or any other API testing tool to interact with the endpoints
 - You can create the database with any name you like. Make sure to update the datasource url in application.properties 
 - If your datasource username and password are not the defaults username(root) and password(" ") , then update their values inapplication.properties 
 - Run the code given in the textfile mysql in the MYSQL Workbench
+  ![image](https://github.com/RachamallaYeswanthReddy/Medicine-Controller/assets/91588050/fbe1c208-8aa9-4a45-92fa-653444c39a40)
+
 
 ## License
 
